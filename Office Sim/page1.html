@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Office Sim</title>
+    <style>
+        .blink_me {
+        animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+}
+    </style>
+</head>
+<body>
+    <script id="myNum">
+        var happiness = 70;
+        var energy = 70;
+    </script>
+    <div>
+        <svg>
+            <g>
+                <rect id="box" x="0" y="0" width="120" height="200" fill="whitesmoke" stroke="black"></rect>
+                <text x="30" y="20" font-family="monospace" font-size="15" fill="black" stroke="black"">1:15 PM</text>
+                <text x="2" y="40" font-family="monospace" font-size="15" fill="white" stroke="black">Happiness: <script id="myNum">document.write(happiness)</script></text> 
+                <text x="2" y="60" font-family="monospace" font-size="15" fill="white" stroke="black">Energy: <script id="myNum">document.write(energy)</script></text>
+                <text x="2" y="80" font-family="monospace" font-size="15" fill="black">The day's only </text>
+                <text x="2" y="100" font-family="monospace" font-size="15" fill="black">halfway over </text>
+                <text x="2" y="120" font-family="monospace" font-size="15" fill="black">but you're </text>
+                <text x="2" y="140" font-family="monospace" font-size="15" fill="black">ready to go. </text> 
+            </g>
+            
+        </svg>
+    </div>
+<p>You're the kind of person that does the bare minimum at work. Within the confines of your small cubicle, you spend work days online browsing, making origami animals, or occasionally staring at a blank excel sheet when someone
+    important is nearby. It's peaceful. Currently you're deleting spam emails cluttering up your storage. You skim over the subject lines with minimal interest before one catches your eye. </p>
+<div class="blink_me">
+    <Strong>!! CHANCE TO WIN A FREE VACATION TO HAWAII !!</Strong>
+</div>
+<p>You click the email open, curious to see how legit it actually was. The contents read: </p>
+<p style="font-family: monospace; font-size: 11;">[If you received this email, you've recently purchased from <Strong>GINNY's Kitchen Appliances</Strong>, earning yourself a spot in our annual raffle for an all expenses paid vacation to a location our participants from the previous year chose! The only thing you need to do is submit <Strong>(1)</Strong> a survey
+concerning customer experience at our stores and <Strong>(2)</Strong> a product review of the appliance you've purchased. Once you've done both, a confirmation email be sent to you and your name will be officially submitted into the raffle. You have until <Strong>JUNE 1</Strong> to enter, so act fast!]</p>
+<p>With no time to waste, you quickly follow through with the instructions. A free vacation to Hawaii just for buying a new toaster? You could hardly believe it! As you daydream about a future in which you win, your coworker, Pazy, approaches you with a tight smile and you quickly
+    switch over to another tab.</p>
+<p>"Heyyy, you got a minute to talk?"</p>
+
+<button onclick="window.location.href='page2.html'">Say no.</button>
+<button onclick="window.location.href='page3.html'">Say yes.</button>
+</body>
+</html> 
